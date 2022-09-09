@@ -1,0 +1,16 @@
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    a {
+      display: inline-block;
+      padding: 20px;
+      text-decoration: none;
+    }
+  }
+}
